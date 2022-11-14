@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: var(--dark-grey);
+}
+
+
+:root {
+    --primary-color: #22d3ee;
+    --dark-grey: #94a3b8;
+    --light-grey: #f1f5f9;
+}
+
+
+#button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: transparent;
+}
+
+#birthdate {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+
+}
+#display-text {
+    color: white;
+    background-color: var(--primary-color);
+    max-width: 50rem;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.head {
+    color: var(--primary-color);
+}
+
+.image{
+    max-width: 40rem;
+}
